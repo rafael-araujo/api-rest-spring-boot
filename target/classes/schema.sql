@@ -1,0 +1,13 @@
+CREATE TABLE Category (
+
+	id INT AUTO_INCREMENT,
+	name VARCHAR(255),
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE Product (
+
+	id INT AUTO_INCREMENT,
+	name VARCHAR(255),
+	PRIMARY KEY (id)
+);
